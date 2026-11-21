@@ -1,0 +1,9 @@
+[submodule "modules/py-wwpdb_utils_config"]
+	path = modules/py-wwpdb_utils_config
+	url = https://github.com/wwPDB/py-wwpdb_utils_config
+[submodule "modules/py-wwpdb_utils_session"]
+	path = modules/py-wwpdb_utils_session
+	url = https://github.com/wwPDB/py-wwpdb_utils_session
+[submodule "modules/py-wwpdb_io"]
+	path = modules/py-wwpdb_io
+	url = https://github.com/wwPDB/py-wwpdb_io

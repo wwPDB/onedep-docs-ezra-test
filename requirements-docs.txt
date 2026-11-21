@@ -1,0 +1,3 @@
+zensical
+mkdocstrings[python]
+wwpdb-onedep-zensical-theme
