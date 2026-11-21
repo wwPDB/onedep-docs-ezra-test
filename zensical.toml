@@ -126,10 +126,17 @@ paths = ["modules/py-wwpdb_utils_config",
 [project.plugins.mkdocstrings.handlers.python.options]
 show_if_no_docstring = true
 # Exclude all private/protected (_name) and special (__name__) objects
-filters = ["!^_"]
+ filters = ["!^_",
+     "^__.*__$",
+     "!^__author__$",
+     "!^__version__$",
+     "!^__license__$",
+     "!^__email__$",
+     "!^__docformat__$",     
+     ]
 
 # OR: Exclude private/protected (_name), but keep special/dunder (__init__) methods (Default)
-# filters = ["!^_[^_]"]
+#filters = ["!^_[^_]"]
 
 [project.plugins.api-autonav]
 modules = ["modules/py-wwpdb_utils_config/wwpdb",
