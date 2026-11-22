@@ -147,7 +147,8 @@ exclude_private = true
 
 exclude = ["wwpdb.utils.config.ConfigInfoFileExec",
            "wwpdb.utils.config.ConfigInfoShellExec",
-           "wwpdb.utils.config.ConfigInfoDataSetExec"	   
+           "wwpdb.utils.config.ConfigInfoDataSetExec",
+	   "wwpdb.io.Archive"
            ]
 
 nav_section_title = "API Reference"
